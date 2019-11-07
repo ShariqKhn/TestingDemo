@@ -30,12 +30,12 @@ public class ReadRowCount
 		        for (int j = 0; j < row.getLastCellNum(); j++) {
 		            Cell cell = row.getCell(j);
 		           switch (cell.getCellType()) {
-				case Cell.CELL_TYPE_STRING:
+				//case Cell.CELL_TYPE_STRING:
 					
 					break;
 
 
-		            case Cell.CELL_TYPE_NUMERIC:
+		          //  case Cell.CELL_TYPE_NUMERIC:
 		                System.out.print((int)row.getCell(j).getNumericCellValue() + " ");
 		                break;
 

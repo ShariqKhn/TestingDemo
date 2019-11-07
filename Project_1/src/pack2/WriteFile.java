@@ -20,6 +20,7 @@ public class WriteFile
 		XSSFWorkbook book=new XSSFWorkbook();
 		
 	    XSSFSheet sheet=book.createSheet("Sheet1");
+	    System.out.println(sheet.getClass());
 
 	    for(int i=0;i<4;i++)
 	    {
