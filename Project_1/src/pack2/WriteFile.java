@@ -25,6 +25,7 @@ public class WriteFile
 	    for(int i=0;i<4;i++)
 	    {
 	    	XSSFRow sr=sheet.createRow(i);
+		    System.out.println("sr.getClass()");
 	    	
 	    	for(int j=0;j<4;j++)
 	    	{
